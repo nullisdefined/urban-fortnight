@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/user-attachments/assets/18ecee70-eb0d-4d6b-b0cf-3b4662c358a8" width="300">
+  <img src="https://github.com/user-attachments/assets/c3fef2c6-e8c5-4b46-b7d2-47136c732232" width="300" style="padding: 10px 0;">
 <br>
 <h3>
   <a href="https://nanalmoa.site/login">
@@ -29,28 +29,14 @@
 
 ## 🎯 메인 기능
 
-### 1. 간편한 로그인/회원가입
-- 전화번호 기반 자체 로그인
-- 카카오, 네이버 소셜 로그인
-- CoolSMS 플랫폼을 통한 전화번호 인증
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/883e6c01-12b1-4772-860d-7cd514935ea0" alt="간편한 로그인과 회원가입">
+  <img src="https://github.com/user-attachments/assets/53b942a0-58f6-40e4-9a68-586bc45bf5fd" alt="음성 기반 AI 일정 등록">
+  <img src="https://github.com/user-attachments/assets/a142ae9d-846e-4810-a4ed-127a18e3c69c" alt="이미지 기반 AI 일정 등록">
+  <img src="https://github.com/user-attachments/assets/cca16e33-61f4-4a5c-abd6-601c8cadef15" alt="그룹 및 관리자 기능">
+  <img src="https://github.com/user-attachments/assets/1d30d514-b219-45d2-8fb9-2506cf2478ff" alt="일간 및 월간 일정 관리">
+</p>
 
-### 2. AI 기반 일정 등록
-- 음성 인식을 통한 일정 등록
-  - Whisper ASR: 음성-텍스트 변환
-  - GPT-4-mini: 일정 정보 추출
-- 이미지 인식을 통한 복약 일정 등록
-  - Clova OCR: 처방전 텍스트 추출
-  - 자동 복약 일정 생성
-
-### 3. 그룹 및 관리자 기능
-- 가족, 친구와의 일정 공유
-- 관리자의 피관리자 일정 조회/관리
-- 그룹 초대 및 수락/거절
-
-### 4. 캘린더 기능
-- 자체 구현 캘린더
-- 일간/월간 일정 조회
-- 직관적인 일정 표시
 
 ## 🛠 기술 스택
 
@@ -85,7 +71,9 @@
 </div>
 
 ## 🏗 서비스 아키텍처
-![{467870D5-2DFC-4AB9-B901-A42516E44D63}](https://github.com/user-attachments/assets/6b887643-a6f5-4225-802c-fa529985d15e)
+<div>
+  <img alt="서비스 아키텍쳐" src="https://github.com/user-attachments/assets/fe11ae46-8f74-47dc-b8a8-0d15e6a07489">
+</div>
 
 - Nginx를 통한 프록시 라우팅
   - /api 요청 → Backend
